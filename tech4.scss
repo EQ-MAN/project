@@ -38,9 +38,10 @@ body {
 }
 .header {
   display: flex;
-  // position: fixed;
+  position: sticky;
+  top: 0;
   flex-wrap: wrap;
-  height: 11rem;
+  height: 13.3rem;
   align-items: center;
   justify-content: space-evenly;
   background: linear-gradient(
@@ -231,7 +232,7 @@ body {
     color: #437057;
   }
 }
-.holder {
+.wonders {
   height: fit-content;
   display: flex;
   margin: 1rem;
@@ -319,6 +320,44 @@ body {
     height: 15rem;
   }
 }
+
+.orginaizing {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 3rem 0 3rem ;
+}
+
+.sections {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex: 0 0 calc(14%);
+  a {
+    text-decoration: none;
+    color: #000;    
+  }
+  .text {
+    margin-top: .7rem;
+  }
+}
+
+.section {
+  width: 6.5rem;
+  height: 6.5rem;
+  border: 2px solid gray;
+  border-radius: 50%;
+  background: #fff4e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
 @media (max-width: 1000px) {
   .extra {
     display: none;
