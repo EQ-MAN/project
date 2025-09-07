@@ -139,6 +139,24 @@ body {
   }
 }
 
+.list-items {
+  .fa-percentage {
+    color: #d3302f;
+  }
+  .fa-shopping-basket {
+    color: #009a49;
+  }
+  .fa-ring {
+    color: #FFD93D;
+  }
+  .fa-fire {
+    color: rgb(215, 47, 9);
+  }
+  .fa-mobile {
+    color: #040847;
+  }
+}
+
 .list-items:hover {
   opacity: 1;
   border: solid 1px #deac80;
@@ -166,7 +184,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 5rem;
-  margin: 2rem 1rem 0 0;
+  margin: 3rem 0 2rem 0;
 }
 
 .case {
@@ -236,6 +254,7 @@ body {
   height: fit-content;
   display: flex;
   margin: 1rem;
+  margin-top: 3rem;
   background-color: #ed1844;
   justify-content: center;
   border-radius: 1rem;
@@ -305,6 +324,7 @@ body {
   height: 18rem;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 3rem;
 }
 .ads {
   display: flex;
@@ -328,6 +348,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0 3rem 0 3rem ;
+  margin-top: 2rem;
 }
 
 .sections {
