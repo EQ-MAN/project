@@ -142,7 +142,7 @@ header {
   color: #009a49;
 }
 .list-items .fa-ring {
-  color: #FFD93D;
+  color: #ffd93d;
 }
 .list-items .fa-fire {
   color: rgb(215, 47, 9);
@@ -189,11 +189,16 @@ header {
   background-color: #fdebd2;
   outline: 2px solid #ed1844;
   outline-offset: 4px;
+  transition: all ease 0.5s;
   cursor: pointer;
 }
 .case i {
   align-self: center;
   font-size: 2rem;
+}
+
+.case:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
 .case-text {
@@ -326,11 +331,17 @@ header {
   border: 1px solid;
   border-radius: 1rem;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: all ease 0.4s;
   cursor: pointer;
 }
 .ads img {
   width: 15rem;
   height: 15rem;
+}
+
+.ads:hover {
+  transform: translateY(-10px);
+  transform: translateZ(60px) scale(1.05);
 }
 
 .organizing {
@@ -339,7 +350,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0 3rem 0 3rem;
+  padding: 0 2rem 0 2rem;
   margin-top: 2rem;
   text-align: center;
 }
@@ -375,6 +386,45 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+.section .fa-tv {
+  color: #303030;
+}
+.section .fa-laptop {
+  color: #238d78;
+}
+.section .fa-tablet {
+  color: #1a436c;
+}
+.section .fa-home {
+  color: #7c3e0e;
+}
+.section .fa-pencil {
+  color: #f6ac33;
+}
+.section .fa-motorcycle {
+  color: #242628;
+}
+.section .fa-shopping-bag {
+  color: #603f26;
+}
+.section .fa-book {
+  color: #3a4fa0;
+}
+.section .fa-suitcase {
+  color: #ff3939;
+}
+.section .fa-robot {
+  color: rgb(255, 145, 0);
+}
+.section .fa-drumstick-bite {
+  color: #c68642;
+}
+.section .fa-pump-soap {
+  color: palevioletred;
+}
+.section .fa-blender {
+  color: green;
 }
 
 @media (max-width: 1000px) {

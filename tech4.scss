@@ -38,14 +38,14 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0;
-    background: linear-gradient(
+  position: sticky;
+  top: 0;
+  background: linear-gradient(
     180deg,
     rgba(255, 219, 181, 1) 0%,
     rgba(255, 219, 181, 1) 75%,
     #deac80 100%
-  )
+  );
 }
 
 .header {
@@ -151,7 +151,7 @@ header {
     color: #009a49;
   }
   .fa-ring {
-    color: #FFD93D;
+    color: #ffd93d;
   }
   .fa-fire {
     color: rgb(215, 47, 9);
@@ -188,7 +188,7 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   gap: 4.5rem;
-  margin-top: 2.5rem ;
+  margin-top: 2.5rem;
 }
 
 .case {
@@ -200,12 +200,19 @@ header {
   background-color: #fdebd2;
   outline: 2px solid #ed1844;
   outline-offset: 4px;
+  transition:all ease .5s;
   cursor: pointer;
   i {
     align-self: center;
     font-size: 2rem;
   }
 }
+
+.case:hover{
+      box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+  }
 
 .case-text {
   text-align: center;
@@ -328,8 +335,9 @@ header {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin: 1rem 3rem 0rem 0rem ;
+  margin: 1rem 3rem 0rem 0rem;
 }
+
 .ads {
   display: flex;
   justify-content: center;
@@ -338,6 +346,7 @@ header {
   border: 1px solid;
   border-radius: 1rem;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: all ease .4s;
   cursor: pointer;
   img {
     width: 15rem;
@@ -345,13 +354,16 @@ header {
   }
 }
 
+.ads:hover {
+  transform: translateY(-10px);transform: translateZ(60px) scale(1.05);}
+
 .organizing {
   width: 100%;
   height: 20rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0 3rem 0 3rem ;
+  padding: 0 2rem 0 2rem;
   margin-top: 2rem;
   text-align: center;
   h2 {
@@ -370,10 +382,10 @@ header {
   flex: 0 0 calc(14%);
   a {
     text-decoration: none;
-    color: #000;    
+    color: #000;
   }
   .text {
-    margin-top: .7rem;
+    margin-top: 0.7rem;
   }
 }
 
@@ -387,6 +399,45 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  .fa-tv {
+    color: #303030;
+  }
+  .fa-laptop {
+    color: #238d78;
+  }
+  .fa-tablet {
+    color: #1a436c;
+  }
+  .fa-home {
+    color: #7c3e0e;
+  }
+  .fa-pencil {
+    color: #f6ac33;
+  }
+  .fa-motorcycle {
+    color: #242628;
+  }
+  .fa-shopping-bag {
+    color: #603f26;
+  }
+  .fa-book {
+    color: #3a4fa0;
+  }
+  .fa-suitcase {
+    color: #ff3939;
+  }
+  .fa-robot {
+    color: rgb(255, 145, 0);
+  }
+  .fa-drumstick-bite {
+    color: #c68642;
+  }
+  .fa-pump-soap {
+    color: palevioletred;
+  }
+  .fa-blender {
+    color: green;
+  }
 }
 
 @media (max-width: 1000px) {
