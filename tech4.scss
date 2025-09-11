@@ -40,6 +40,7 @@ body {
 header {
   position: sticky;
   top: 0;
+  z-index: 999;
   background: linear-gradient(
     180deg,
     rgba(255, 219, 181, 1) 0%,
@@ -399,6 +400,7 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  transition: ease-in .2s;
   .fa-tv {
     color: #303030;
   }
@@ -438,6 +440,21 @@ header {
   .fa-blender {
     color: green;
   }
+}
+
+.section:hover {
+  background-color: #EBCB90;
+}
+
+.two-ads {
+  // display: flex;
+  // justify-content: space-between;
+  // gap: 2rem;
+  margin-top: 6rem;
+}
+
+.second {
+  width: calc(50%-2rem);
 }
 
 @media (max-width: 1000px) {
