@@ -435,13 +435,12 @@ header {
 
 .two-ads {
   display: flex;
-  justify-content: space-between;
+  gap: 1.5rem;
   margin-top: 6rem;
-  gap: 2rem;
 }
 
 .second {
-  width: 50%;
+  width: 45%;
 }
 
 @media (max-width: 1000px) {

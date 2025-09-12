@@ -447,15 +447,17 @@ header {
 }
 
 .two-ads {
-  // display: flex;
-  // justify-content: space-between;
-  // gap: 2rem;
+  display: flex;
+  // justify-content: center;
+  gap: 1.5rem;
   margin-top: 6rem;
 }
 
 .second {
-  width: calc(50%-2rem);
+  width: 45%;
 }
+
+
 
 @media (max-width: 1000px) {
   .extra {
