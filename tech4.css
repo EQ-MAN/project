@@ -435,12 +435,17 @@ header {
 
 .two-ads {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.3rem;
   margin-top: 6rem;
 }
 
 .second {
-  width: 45%;
+  width: 46%;
+}
+
+.one-ad {
+  width: 93%;
+  margin: 0 auto;
 }
 
 @media (max-width: 1000px) {
