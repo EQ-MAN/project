@@ -461,6 +461,35 @@ header {
   margin: 0 auto;
 }
 
+.most-sales {
+  width: 100%;
+  height: 30rem;
+}
+
+.most-sales-parts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  border: 1px solid;
+  border-radius: 2rem;
+}
+
+.products {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex: 0 0 calc(25%-2rem);
+  padding: 1rem;
+}
+
+.photo{
+  border: 1px solid;
+}
+
+.names{
+  text-align: center;
+}
+
 @media (max-width: 1000px) {
   .extra {
     display: none;
