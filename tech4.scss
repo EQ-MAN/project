@@ -201,7 +201,7 @@ header {
   background-color: #fdebd2;
   outline: 2px solid #ed1844;
   outline-offset: 4px;
-  transition:all ease .5s;
+  transition: all ease 0.5s;
   cursor: pointer;
   i {
     align-self: center;
@@ -209,11 +209,11 @@ header {
   }
 }
 
-.case:hover{
-      box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+.case:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
     rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
     rgba(240, 46, 170, 0.05) 0px 25px;
-  }
+}
 
 .case-text {
   text-align: center;
@@ -347,7 +347,7 @@ header {
   border: 1px solid;
   border-radius: 1rem;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
   cursor: pointer;
   img {
     width: 15rem;
@@ -356,7 +356,9 @@ header {
 }
 
 .ads:hover {
-  transform: translateY(-10px);transform: translateZ(60px) scale(1.05);}
+  transform: translateY(-10px);
+  transform: translateZ(60px) scale(1.05);
+}
 
 .organizing {
   width: 100%;
@@ -400,7 +402,7 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  transition: ease-in .2s;
+  transition: ease-in 0.2s;
   .fa-tv {
     color: #303030;
   }
@@ -443,7 +445,7 @@ header {
 }
 
 .section:hover {
-  background-color: #EBCB90;
+  background-color: #ebcb90;
 }
 
 .two-ads {
@@ -469,25 +471,41 @@ header {
 .most-sales-parts {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 2rem;
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   border: 1px solid;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .products {
+  height: 6rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  flex: 0 0 calc(25%-2rem);
+  flex: 0 0 25%;
   padding: 1rem;
+  transition: all ease .5s;
+}
+.products:hover {
+  box-shadow: rgba(240, 185, 46, 0.4) 5px 5px, rgba(240, 156, 46, 0.3) 10px 10px,
+    rgba(246, 162, 53, 0.2) 15px 15px, rgba(240, 149, 46, 0.1) 20px 20px,
+    rgba(240, 156, 46, 0.05) 25px 25px;
 }
 
-.photo{
-  border: 1px solid;
+.photo {
+  border: 0.5px solid;
+  border-radius: 0.3rem;
+  padding: 14px 4px 4px 4px;
 }
 
-.names{
-  text-align: center;
+.names {
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+  font-size: 0.8rem;
+  border-bottom: 0.5px solid;
 }
 
 @media (max-width: 1000px) {

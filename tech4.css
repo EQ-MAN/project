@@ -430,7 +430,7 @@ header {
 }
 
 .section:hover {
-  background-color: #EBCB90;
+  background-color: #ebcb90;
 }
 
 .two-ads {
@@ -456,14 +456,40 @@ header {
 .most-sales-parts {
   display: flex;
   flex-wrap: wrap;
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: 1rem;
 }
 
 .products {
+  height: 6rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  flex: 0 0 24%;
+  flex: 0 0 25%;
   padding: 1rem;
+  transition: all ease 0.5s;
+}
+
+.products:hover {
+  box-shadow: rgba(240, 185, 46, 0.4) 5px 5px, rgba(240, 156, 46, 0.3) 10px 10px, rgba(246, 162, 53, 0.2) 15px 15px, rgba(240, 149, 46, 0.1) 20px 20px, rgba(240, 156, 46, 0.05) 25px 25px;
+}
+
+.photo {
+  border: 0.5px solid;
+  border-radius: 0.3rem;
+  padding: 14px 4px 4px 4px;
+}
+
+.names {
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+  font-size: 0.8rem;
+  border-bottom: 0.5px solid;
 }
 
 @media (max-width: 1000px) {
